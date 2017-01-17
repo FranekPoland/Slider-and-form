@@ -9,7 +9,7 @@ Slider and form
     <link href="https://fonts.google.com/specimen/Roboto:100, 200, 300, 400">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--from T. Klocek and http://blog.kamilbrenk.pl/meta-tag-viewport-kiedy-i-jak-uzywac/ -->
-    <link rel="stylesheet" href="zadanie1.css">
+    <link rel="stylesheet" href="https://github.com/FranekPoland/zadanie1/blob/master/css">
 </head>
 
 <body>
