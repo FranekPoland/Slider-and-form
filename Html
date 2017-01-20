@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="utf-8">
+    <link href="https://fonts.google.com/specimen/Roboto:100, 200, 300, 400">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--from T. Klocek and http://blog.kamilbrenk.pl/meta-tag-viewport-kiedy-i-jak-uzywac/ -->
+    <link rel="stylesheet" href="slider.css">
+    <title>Slider and form</title>
+</head>
+
+<body>
+    <div class="main-container">
+        <div id="slider">
+            <img class="photo" src="sf/image1.jpg" alt="1" />
+            <img class="photo" src="sf/image2.jpg" alt="2" />
+            <img class="photo" src="sf/image3.jpg" alt="3" />
+            <img class="photo" src="sf/image4.jpg" alt="4" />
+            <img class="photo" src="sf/image5.jpg" alt="5" />
+        </div>
+    </div>
+    <div class="wrapper">
+        <form class="form">
+            <label for="content">Jak masz na imię?</label>
+            <input type="text" id="nickname" name="nickname" placeholder="Jan Kowalski" required>
+            <p>Jakie kwiaty lubisz najbardziej?</p>
+            <label>
+                <input type="radio" name="flower">Róże</label>
+            <label>
+                <input type="radio" name="flower">Piwonie</label>
+            <label>
+                <input type="radio" name="flower">Żonkile</label>
+            <label>
+                <input type="radio" name="flower" checked>Stokrotki</label>
+            <label for="approval" class="question">Czy chcesz zapisać swój wybór</label>
+            <label>
+                <input type="checkbox" name="approval" required>Zgadzam się</label>
+            <button class="btn" type="submit">SUBMIT</button>
+            <button class="btn" type="reset">RESET</button>
+        </form>
+    </div>
+</body>
+
+</html>
