@@ -1,1 +1,1 @@
-This repo contains my first Slider and form, made by pure Html and Css.
+This repo contains my first slider and form, made by pure Html and Css.
