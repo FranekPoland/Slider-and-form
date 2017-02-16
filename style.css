@@ -22,7 +22,7 @@ body {
 }
 
 .photo {
-    animation: slider 20s infinite;
+    animation: slider 25s infinite;
     opacity: 1;
     width: 100%;
     position: absolute;
